@@ -1,0 +1,68 @@
+package tsunami.features.hud.impl;
+
+import com.mojang.blaze3d.platform.GlStateManager.class_4534;
+import com.mojang.blaze3d.platform.GlStateManager.class_4535;
+import com.mojang.blaze3d.systems.RenderSystem;
+import java.awt.Color;
+import java.util.Iterator;
+import net.minecraft.class_124;
+import net.minecraft.class_2281;
+import net.minecraft.class_2586;
+import net.minecraft.class_2595;
+import net.minecraft.class_2745;
+import net.minecraft.class_332;
+import net.minecraft.class_3545;
+import tsunami.features.hud.HudElement;
+import tsunami.features.modules.client.HudEditor;
+import tsunami.features.modules.render.StorageEsp;
+import tsunami.gui.font.FontRenderers;
+import tsunami.setting.impl.ColorSetting;
+import tsunami.utility.render.Render2DEngine;
+import tsunami.utility.render.TextureStorage;
+
+public class ChestCounter extends HudElement {
+   public ChestCounter() {
+      super("ChestCounter", 50, 10);
+   }
+
+   public void onRender2D(class_332 context) {
+      super.onRender2D(context);
+      class_3545<Integer, Integer> chests = this.getChestCount();
+      String var10000 = String.valueOf(class_124.field_1068);
+      String str = "Chests: " + var10000 + "S:" + String.valueOf(chests.method_15442()) + " D:" + String.valueOf(chests.method_15441());
+      float pX = this.getPosX() > (float)mc.method_22683().method_4486() / 2.0F ? this.getPosX() - FontRenderers.getModulesRenderer().getStringWidth(str) : this.getPosX();
+      if (HudEditor.hudStyle.is(HudEditor.HudStyle.Blurry)) {
+         Render2DEngine.drawRoundedBlur(context.method_51448(), pX, this.getPosY(), FontRenderers.getModulesRenderer().getStringWidth(str) + 21.0F, 13.0F, 3.0F, ((ColorSetting)HudEditor.blurColor.getValue()).getColorObject());
+         Render2DEngine.drawRect(context.method_51448(), pX + 14.0F, this.getPosY() + 2.0F, 0.5F, 8.0F, new Color(1157627903, true));
+         Render2DEngine.setupRender();
+         RenderSystem.blendFunc(class_4535.SRC_ALPHA, class_4534.ONE);
+         RenderSystem.setShaderTexture(0, TextureStorage.chestIcon);
+         Render2DEngine.renderGradientTexture(context.method_51448(), (double)(pX + 2.0F), (double)(this.getPosY() + 1.0F), 10.0D, 10.0D, 0.0F, 0.0F, 512.0D, 512.0D, 512.0D, 512.0D, HudEditor.getColor(270), HudEditor.getColor(0), HudEditor.getColor(180), HudEditor.getColor(90));
+         Render2DEngine.endRender();
+      }
+
+      FontRenderers.getModulesRenderer().drawString(context.method_51448(), str, (double)(pX + 18.0F), (double)(this.getPosY() + 5.0F), HudEditor.getColor(1).getRGB());
+      this.setBounds(pX, this.getPosY(), FontRenderers.getModulesRenderer().getStringWidth(str) + 21.0F, 13.0F);
+   }
+
+   public class_3545<Integer, Integer> getChestCount() {
+      int singleCount = 0;
+      int doubleCount = 0;
+      Iterator var3 = StorageEsp.getBlockEntities().iterator();
+
+      while(var3.hasNext()) {
+         class_2586 be = (class_2586)var3.next();
+         if (be instanceof class_2595) {
+            class_2595 chest = (class_2595)be;
+            class_2745 chestType = (class_2745)mc.field_1687.method_8320(chest.method_11016()).method_11654(class_2281.field_10770);
+            if (chestType == class_2745.field_12569) {
+               ++singleCount;
+            } else {
+               ++doubleCount;
+            }
+         }
+      }
+
+      return new class_3545(singleCount, doubleCount / 2);
+   }
+}
