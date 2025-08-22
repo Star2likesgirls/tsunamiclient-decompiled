@@ -5,6 +5,8 @@ owner is a known ratter and is trying to obfuscate it. decompiled by drycrash ht
 **Modules are in: root folder\tsunami\features\modules\**
 have fun skidding
 -
+
+
 files found on the owner's github.
 ![proof1](https://media.discordapp.net/attachments/1407534844795162659/1408543794281971752/image.png?ex=68aa2022&is=68a8cea2&hm=341635d9c667c7548a81e9592bb9e02ebd17ce5bacf32017b856c4bc7ebf4947&=&format=webp&quality=lossless)
 ![proof2](https://media.discordapp.net/attachments/1407534844795162659/1408543794919505972/image.png?ex=68aa2022&is=68a8cea2&hm=94f5f7507354c3cf7ca006f120edf99610085d9e81255cdfa44c78f87722e5dd&=&format=webp&quality=lossless)
