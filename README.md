@@ -24,3 +24,7 @@ Update, he got mad and banned me from his discord. Updated chunkfinder in the dr
 heres him begging me to delete it. im not deleting shit from that ratter's thunderpaste
 
 ![proof5](https://media.discordapp.net/attachments/1407534844795162659/1408991699551649872/image.png?ex=68abc146&is=68aa6fc6&hm=07c78efc7d03bca522f4f1fa61b8db888fbe44a407bb4f73b7e5a14c8e1f7233&=&format=webp&quality=lossless)
+
+theyre also accusing me of skidding some nn client. (with no proof)
+
+![proof6](https://media.discordapp.net/attachments/1408167469557874739/1408992709041066016/image.png?ex=68abc237&is=68aa70b7&hm=7b5005f9abb8b34482b9c972c754d246b988520d22b7aaf780728ee47c44bf60&=&format=webp&quality=lossless)
