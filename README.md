@@ -17,6 +17,8 @@ hes an ex dev for glazed (glazed = big ego) plus uses ai and acts like he made e
 ![proof3](https://media.discordapp.net/attachments/1407534844795162659/1408544511784648775/image.png?ex=68aa20cd&is=68a8cf4d&hm=51f02664ea86b51c53697db58b413797e52654352d989a5c8125004f1a681c94&=&format=webp&quality=lossless)
 ![proof4](https://media.discordapp.net/attachments/1407534844795162659/1408545070738833439/image.png?ex=68aa2152&is=68a8cfd2&hm=b1ca4e1b35b3d579f43a5ae4e81eba55a41bd6d2905857063c66dd9b1116dc2c&=&format=webp&quality=lossless)
 
+--
+
 Update, he got mad and banned me from his discord. Updated chunkfinder in the drycrash dc.
 
 heres him begging me to delete it
