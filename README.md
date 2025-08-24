@@ -28,3 +28,5 @@ heres him begging me to delete it. im not deleting shit from that ratter's thund
 theyre also accusing me of skidding some nn client. (with no proof)
 
 ![proof6](https://media.discordapp.net/attachments/1408167469557874739/1408992709041066016/image.png?ex=68abc237&is=68aa70b7&hm=7b5005f9abb8b34482b9c972c754d246b988520d22b7aaf780728ee47c44bf60&=&format=webp&quality=lossless) (this guy cant speak English lol)
+
+![proof7](https://media.discordapp.net/attachments/1385876861657288795/1408993823371038792/image.png?ex=68abc341&is=68aa71c1&hm=704cdbdf0f454597a452eb4ae873d0987ee62379c7b069ff743d796537fa18ae&=&format=webp&quality=lossless) (blocked the second i got a point)
